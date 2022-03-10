@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+  background-image: url('../images/earth.jpg');
+  height: 100vh;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100vw;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.stepBtn { 
+  position: absolute;
+  bottom: 125px;
+  background-color: #122f5c;
+  border: none;
+  padding: 10px !important;
+}
+
+.stepBtn1 { 
+  position: absolute;
+  bottom: 75px;
+  background-color: #122f5c;
+  border: none;
+  padding: 10px !important;
+}
+
+.stepBtn2 { 
+  position: absolute;
+  bottom: 25px;
+  background-color: #122f5c;
+  border: none;
+  padding: 10px !important;
+}
+
+#stepBtn:hover {
+  background-color: #0a1930;
+}
+
+.Homepage-header {
+  padding: 6%;
+  text-align: center;
+  font-family: Rubik !important;
+}
+
+form {
+  padding: 15% 0;
+}
+
+.btn,
+.btn:hover {
+  background-color: #122f5c !important;
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+  font-size: 12px !important;
+}
+
+.btn:hover {
+  background-color: #a1ceee !important;
+  color: black !important;
+  border: none !important;
+}
+
+.result-btn,
+.action-btn {
+  background-color: #cadfb6 !important;
+  color: black !important;
+  border: none !important;
+  font-size: 12px !important;
+  padding: 10px !important;
+}
+
+.result-btn:hover,
+.action-btn {
+  background-color: #cadfb6d5 !important;
+  color: black !important;
+  border: none !important;
+  font-size: 12px !important;
+  padding: 10px !important;
+}
+
+input[type],
+input[type]:focus {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.card {
+  background-color: white !important;
+  margin: 1em auto;
+  width: 40rem !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result-display {
+  font-size: 2vh !important;
+}
+
+.figures-num,
+.take-action-num {
+  font-size: 1.5em;
+}
+
+.figures-total {
+  color: #cadfb6;
+  font-size: 1.8em;
+}
+
+.take-action-total,
+.about-header {
+  font-size: 1.8em;
+}
+.about-header,
+.card-total {
+  color: #cadfb6;
+}
+
+.figures {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  line-height: 1.11;
+  min-width: 200px !important;
+  box-sizing: border-box;
+}
+
+.Results,
+.TakeAction,
+.User-result-text {
+  margin-top: 3%;
+}
+.graph {
+  margin-left: 5%;
+}
+
+.figures-display,
+.about-content,
+.login-form,
+.signUpForm {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  min-width: 400px !important;
+  max-width: 800px !important;
+  background-color: white !important;
+  padding: 4%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.take-action-display {
+  margin: 0 auto;
+  min-width: 150px !important;
+  max-width: 600px !important;
+  background-color: white !important;
+  padding: 4%;
+  border-radius: 2%;
+  white-space: nowrap !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.take-action-text {
+  line-height: 2.2;
+}
+
+.figures-btn,
+.take-action-btn,
+.err-btn {
+  margin-top: 10%;
+}
+
+.About,
+.about-content,
+.Login,
+.Signup {
+  margin-top: 3%;
+}
+
+.alert-container {
+  width: 40%;
+  position: fixed;
+  left: 28%;
+  top: 5%;
+}
+
+.Footer {
+  position: fixed;
+  left: 15px;
+  bottom: 0;
+}
+
+.card-container {
+  margin: 2% auto;
+}
+
+.Login-header, .Signup-header{
+  text-align: center;
+  margin-bottom: 3%;
+}
